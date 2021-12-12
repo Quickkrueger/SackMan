@@ -1,0 +1,32 @@
+{ "skeleton": { "images": "G:/Marshall/Game Development/Projects/SackMan/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Leg_B", "bone": "root", "attachment": "Leg_B" },
+	{ "name": "Arm_B", "bone": "root", "attachment": "Arm_B" },
+	{ "name": "Torso", "bone": "root", "attachment": "Torso" },
+	{ "name": "Arm_F", "bone": "root", "attachment": "Arm_F" },
+	{ "name": "Head", "bone": "root", "attachment": "Head" }
+],
+"skins": {
+	"default": {
+		"Leg_B": {
+			"Leg_B": { "x": 603.5, "y": -775, "width": 327, "height": 462 }
+		},
+		"Arm_B": {
+			"Arm_B": { "x": 722, "y": -434, "width": 330, "height": 300 }
+		},
+		"Torso": {
+			"Torso": { "x": 487, "y": -630, "width": 256, "height": 764 }
+		},
+		"Arm_F": {
+			"Arm_F": { "x": 334.5, "y": -398.5, "width": 393, "height": 215 }
+		},
+		"Head": {
+			"Head": { "x": 544, "y": -207.5, "width": 208, "height": 277 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
